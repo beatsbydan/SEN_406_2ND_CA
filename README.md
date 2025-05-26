@@ -62,15 +62,19 @@ This project investigates whether open-source projects that enforce mandatory co
 
 ## 📌 How to Run
 
-1. **Install dependencies:**
+1. **Create Virtual Environment:**
+
+    python -m venv venv
+
+2. **Install dependencies:**
 
     pip install -r requirements.txt
 
-2. **Set Up your .env file:**
+3. **Set Up your .env file:**
 
     GITHUB_TOKEN=your_personal_access_token
 
-3. **Run the operation:**
+4. **Run the operation:**
 
     python main.py
 
